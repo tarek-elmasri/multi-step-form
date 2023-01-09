@@ -35,7 +35,7 @@ const StyledSidebar = styles.aside`
       height: 2rem;
       display: grid;
       place-content: center;
-      outline: 2px solid var(--clr-primary-200);
+      border: 2px solid var(--clr-primary-200);
       border-radius: 50%;
       color: var(--clr-primary-200);
       background-color: var(--clr-primary-400);
@@ -43,7 +43,7 @@ const StyledSidebar = styles.aside`
       &[data-active="true"]{
         color: var(--clr-primary-600);
         background-color: var(--clr-primary-200);
-        outline-color: var(--clr-primary-400);
+        border-color: var(--clr-primary-400);
       }
     }
 
