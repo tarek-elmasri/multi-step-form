@@ -1,9 +1,8 @@
 import { useCallback, useState } from 'react';
-
 import Addons from '../components/Addons/Addons';
 import PersonalInformation from '../components/PersonalInformation/PersonalInformation';
 import Plans from '../components/Plans/Plans';
-import StepFour from '../components/SummaryDetails/SummaryDetails';
+import SummaryDetails from '../components/SummaryDetails/SummaryDetails';
 import ThankYou from '../components/ThankYou/ThankYou';
 
 export type PersonalInfoState = {
@@ -131,7 +130,7 @@ const useForm = (initialState: FormState) => {
           />
         );
       case 4:
-        return <StepFour data={form} />;
+        return <SummaryDetails data={form} />;
 
       case 5:
         return <ThankYou />;
