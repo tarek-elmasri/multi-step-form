@@ -31,7 +31,7 @@ const StyledSidebar = styles.aside`
     }
 
     &-no{
-      width: 2em;
+      width: 2rem;
       height: 2rem;
       display: grid;
       place-content: center;
